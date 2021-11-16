@@ -1,1 +1,14 @@
 # omnilock-smt
+
+Generate smt root and proof of omnilock auth.
+
+## Example
+
+```bash
+# args: hex string of auth(21 bytes)
+cargo run 0x061234567890123456789012345678901234567890
+
+# output:
+# root: 0x7b2a2f71d21c1575586ee4154620ec3facbe59145cb21999baee8bf14e4e09ea
+# proof: 0x4c4fa7519f47dbecdc20bfc265cdadfe95f7b5d077ff1fad9806a27e099deb14189653ea7500000000000000000000000000000000000000000000000000000000000000004f58
+```
